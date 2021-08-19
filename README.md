@@ -14,12 +14,12 @@ Start to improve fitness and health with this fitness exercises and get in shape
 ## Overview
 In this project we will produce a squat counter using ML kit pose detection. This project is divided into three main parts:
 ### Part 1. Model Overview
-###### 1.1	Setup and Requirement
-###### 1.2	Setup the environment
+>##### 1.1	Setup and Requirement
+>##### 1.2	Setup the environment
 ### Part 2. Google ML Kit
-###### 2.1 Pose Detection
+>##### 2.1 Pose Detection
 ### Part 3. Files and their Functions
-###### 3.1 Squat Compute
+>##### 3.1 Squat Compute
 ### Part 4. Integrating ML Kit with template<br>
 
 ## 1.1 Setup and Requirements
@@ -172,9 +172,9 @@ alt="Reference Video" width="800" height="500" border="10" /></a>
 We have to integrate our ML Kit with template to make our App commercially usable.
 
 Steps involved are:<br>
-###### 1. Include ML Kit Pose Detection 
-###### 2. Modify activity_exercise_detail.xml 
-###### 3. Modify ActivityExerciseDetail.java when the user clicks "Skip" or the timer count is over 
+>##### 1. Include ML Kit Pose Detection 
+>##### 2. Modify activity_exercise_detail.xml 
+>##### 3. Modify ActivityExerciseDetail.java when the user clicks "Skip" or the timer count is over 
 
 1.  From ML Kit, we had to remove java files that are Activities. Activity is the component that shows the screen by connecting xml files to the screen. Then, the skeleton that draws lines on the recognized person was removed, as we do not need that. Also, we made the camera to only show the camera input from the front camera, since users would need to see the screen while exercising.
 

@@ -69,11 +69,16 @@ physical device.
     <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/emulatorss.png" width="1200" height="500">
     </p>
     
-After the successful creation launch it. It will look similar to this according to the emulator configuration you have choosen:
-<p align="center">
-    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/emulator.png" width="350" height="600">
-    </p>
+    
+After the successfull creation of emulator, **Go to the Run>Run 'app'** in the top pane or press **Shift+F10**.<br>
+The project will build and install in the emulator chosen in the top pane.
 
+The Output will look like this-
+<p align="center">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/MLkitoutput.png" width="800" height="600">
+    </p>
+    
+Quite Interesting? Isn't it.
 
 ## Part 2. Google ML Kit
 ML Kit brings Google’s machine learning expertise to mobile developers in a powerful and easy-to-use package. Make your iOS and Android apps more engaging, personalized, and helpful with solutions that are optimized to run on device.
@@ -119,6 +124,7 @@ After configuring this according to our requirement the final ML Kit file will l
 
 #### *Note: Refer Part 1 for the updated zip file.*
 
+This is the Flowdiagram of the files we should know about-
 <p align="center">
     <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/files.png">
     </p>
@@ -156,11 +162,13 @@ When Q has been calculated, we want Angle Q to be displayed as a positive value 
 
 #### Here is the reference video-
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+<p align="center">
+<a href="https://www.youtube.com/watch?v=kD9_2DYQQUk" target="_blank"><img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/youtubetem.png" 
+alt="Reference Video" width="800" height="500" border="10" /></a>
+</p>
 
 ## Part 4. Integrating ML Kit with template
+
 We have to integrate our ML Kit with template to make our App commercially usable.
 
 Steps involved are:<br>
@@ -168,7 +176,8 @@ Steps involved are:<br>
 ###### 2. Modify activity_exercise_detail.xml 
 ###### 3. Modify ActivityExerciseDetail.java when the user clicks "Skip" or the timer count is over 
 
-1.  From ML Kit, we had to remove java files that are Activities. Activity is the component that shows the screen by connecting xml files to the screen. Then, the skeleton that draws lines on the recognized person was removed, as we do not need that. Also, we made the camera to only show the camera input from the front camera, since users would need to see the screen while exercising
+1.  From ML Kit, we had to remove java files that are Activities. Activity is the component that shows the screen by connecting xml files to the screen. Then, the skeleton that draws lines on the recognized person was removed, as we do not need that. Also, we made the camera to only show the camera input from the front camera, since users would need to see the screen while exercising.
+
 <p align="center">
     <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/PoseEstimateFolderAdded.png">
     </p>

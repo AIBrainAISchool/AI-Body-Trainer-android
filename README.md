@@ -1,8 +1,10 @@
 # AI Body Trainer
-Take a few minutes a day to lose weight and keep fit effectively with our workout at home. No equipment needed, just use your bodyweight to workout at home.
+Take a few minutes a day to lose weight and keep fit effectively with our workout at home. No equipment needed, just use your bodyweight to workout at home.<br>
 Start to improve fitness and health with this fitness exercises and get in shape, defined figure you’ve always wanted with this exercise routine, designed to improve fitness.
 
-![alt text](https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/app.png "AI BODY TRAINER")
+<p align="center">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/app.png" width="900">
+    </p>
 
 ## App Video
 Video
@@ -19,13 +21,22 @@ In this project we will produce a squat counter using ML kit pose detection. Thi
 
 ## 1.1 Setup and Requirements
 Let’s dive into the world of Apps. 
-### Android Studio
+### What is Android Studio?
+
+Android Studio is the official integrated development environment (IDE) for Google's Android operating system, built on JetBrains IntelliJ IDEA software and designed specifically for Android development.It is available for download on Windows, macOS and Linux based operating systems.
+
 Android Studio provides the fastest tools for building apps on every type of Android device. 
 We need to setup android studio to build and run our project.
-Here is the link to download android studio for Windows(64 bit):
-#### android-studio-2020.3.1.22-windows.exe
-![alt text](https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/AndroidStudio.png "AI BODY TRAINER")
-### NOTE: This project will only work with android studio 4.1 version or above
+
+Here is the Youtube link to download android studio for Windows(64 bit) step by step process:<br>
+https://www.youtube.com/watch?v=0zx_eFyHRU0
+
+<p align="center">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/AndroidStudio.png" width="450" height="350">
+    </p>
+
+#### *NOTE: This project will only work with android studio 4.1 version or above.*
+
 
 ## 1.2 Setup the environment
 Now let us set up the environment for our project. 
@@ -36,8 +47,10 @@ link(www.google.com)
 
 Download and unzip it in a location.
 
-#### Open android studio. Go to File>Open>open the folder where you unzip the file
-![alt text](https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/openfile.png "Open File")
+#### Open android studio. Go to File>Open>*open the folder where you unzip the file*
+<p align="center">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/openfile.png" width="480" height="500">
+    </p>
   
 Wait for the configuration to come up. It may take some minutes. 
 
@@ -49,25 +62,37 @@ The Android Emulator simulates Android devices on your computer so that you can 
 physical device.
 
 #### Go to Tools>AVD manager>Create Virtual Device
-![alt text](https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/emulatorss.png "Emulator")
-![alt text](https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/emulator.png "Open File")
+<p align="center">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/emulatorss.png" width="1200" height="500">
+    </p>
+    
+After the successful creation launch it. It will look similar to this according to the emulator configuration you have choosen:
+<p align="center">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/emulator.png" width="350" height="600">
+    </p>
 
 
 ## Part 2. Google ML Kit
 ML Kit brings Google’s machine learning expertise to mobile developers in a powerful and easy-to-use package. Make your iOS and Android apps more engaging, personalized, and helpful with solutions that are optimized to run on device.
 
-![alt text](https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/mlkit.png "ML kit")
+<p align="center">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/mlkit.png" width="480">
+    </p>
 
 ## 2.1 Pose Detection
 Pose Estimation refers to computer vision technique that detect human body keypoints in images and videos. While Image Classification's output was a predicted label and its confidence rate, the Pose Estimation model’s output is the predicted location of the body keypoints within the screen. Take a look at some of the models in action below the video.
 
-![alt text](https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/pose_face_hands.gif "Ml kit")
+<p align="center">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/pose_face_hands.gif" width="480">
+    <br>
+    <sup>https://github.com/CMU-Perceptual-Computing-Lab/openpose</sup>
+</p>
 
-(https://github.com/CMU-Perceptual-Computing-Lab/openpose)
-
-![alt text](https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/pose_estimation.gif "Ml kit")
-
-(https://www.tensorflow.org/lite/models/pose_estimation/overview)
+<p align="center">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/pose_estimation.gif" width="480">
+    <br>
+    <sup>https://www.tensorflow.org/lite/models/pose_estimation/overview</sup>
+</p>
 
 The ML Kit Pose Detection API is a lightweight versatile solution for app developers to detect the pose of a subject's body in real time from a continuous video or static image. A pose describes the body's position at one moment in time with a set of skeletal landmark points. The landmarks correspond to different body parts such as the shoulders and hips. The relative positions of landmarks can be used to distinguish one pose from another.
 

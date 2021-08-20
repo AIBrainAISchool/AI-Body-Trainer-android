@@ -3,12 +3,12 @@ Take a few minutes a day to lose weight and keep fit effectively with our workou
 Start to improve fitness and health with this fitness exercises and get in shape, defined figure you’ve always wanted with this exercise routine, designed to improve fitness.
 
 <p align="center">
-    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/app.png" width="900">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/Images/app.png" width="900">
     </p>
 
 ## Prototype Video
 <p align="center">
-    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/aibodytrainer.gif" width="300" height="600">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/Images/aibodytrainer.gif" width="300" height="600">
     </p>
   
 ## Overview
@@ -35,7 +35,7 @@ Here is the Youtube link to download android studio for Windows(64 bit) step by 
 https://www.youtube.com/watch?v=0zx_eFyHRU0
 
 <p align="center">
-    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/AndroidStudio.png" width="450" height="350">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/Images/AndroidStudio.png" width="450" height="350">
     </p>
 
 #### *NOTE: This project will only work with android studio 4.1 version or above.*
@@ -52,7 +52,7 @@ Download and unzip it in a location.
 
 #### Open android studio. Go to File>Open>*open the folder where you unzip the file*
 <p align="center">
-    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/openfile.png" width="480" height="500">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/Images/openfile.png" width="480" height="500">
     </p>
   
 Wait for the configuration to come up. It may take some minutes. 
@@ -66,7 +66,7 @@ physical device.
 
 #### Go to Tools>AVD manager>Create Virtual Device
 <p align="center">
-    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/emulatorss.png" width="1200" height="500">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/Images/emulatorss.png" width="1200" height="500">
     </p>
     
     
@@ -75,7 +75,7 @@ The project will build and install in the emulator chosen in the top pane.
 
 The Output will look like this-
 <p align="center">
-    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/MLkitoutput.png" width="800" height="600">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/Images/MLkitoutput.png" width="800" height="600">
     </p>
     
 Quite Interesting? Isn't it.
@@ -84,27 +84,27 @@ Quite Interesting? Isn't it.
 ML Kit brings Google’s machine learning expertise to mobile developers in a powerful and easy-to-use package. Make your iOS and Android apps more engaging, personalized, and helpful with solutions that are optimized to run on device.
 
 <p align="center">
-    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/mlkit.png" width="480">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/Images/mlkit.png" width="480">
     </p>
 
 ## 2.1 Pose Detection
 Pose Estimation refers to computer vision technique that detect human body keypoints in images and videos. While Image Classification's output was a predicted label and its confidence rate, the Pose Estimation model’s output is the predicted location of the body keypoints within the screen. Take a look at some of the models in action below the video.
 
 <p align="center">
-    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/pose_face_hands.gif" width="480">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/Images/pose_face_hands.gif" width="480">
     <br>
     <sup>https://github.com/CMU-Perceptual-Computing-Lab/openpose</sup>
 </p>
 
 <p align="center">
-    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/pose_estimation.gif" width="480">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/Images/pose_estimation.gif" width="480">
     <br>
     <sup>https://www.tensorflow.org/lite/models/pose_estimation/overview</sup>
 </p>
 
 The ML Kit Pose Detection API is a lightweight versatile solution for app developers to detect the pose of a subject's body in real time from a continuous video or static image. A pose describes the body's position at one moment in time with a set of skeletal landmark points. The landmarks correspond to different body parts such as the shoulders and hips. The relative positions of landmarks can be used to distinguish one pose from another.
 
-![alt text](https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/landmarks-fixed.png "Ml kit")
+![alt text](https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/Images/landmarks-fixed.png "Ml kit")
 
 •	Cross-platform support Enjoy the same experience on both Android and iOS.<br>
 •	Full body tracking The model returns 33 key skeletal landmark points, including the positions of the hands and feet.<br>
@@ -119,14 +119,14 @@ https://github.com/googlesamples/mlkit/tree/master/android/vision-quickstart<br>
 After configuring this according to our requirement the final ML Kit file will look like this:
 
 <p align="center">
-    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/finalmlkit.png">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/Images/finalmlkit.png">
     </p>
 
 #### *Note: Refer Part 1 for the updated zip file.*
 
 This is the Flowdiagram of the files we should know about-
 <p align="center">
-    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/files.png">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/Images/files.png">
     </p>
 
 ### 3.1. Squat Compute
@@ -137,7 +137,7 @@ Let's simplify this problem more. We can make the user to do the exercise at a c
 Then what can be done? There is one quantity that does not change depending on the resolution and the heights of people: the angle. If we make the user to do squats from side view, then we can measure the angle of the leg using trigonometry. 
 
 <p align="center">
-    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/squatanalysis.png" width="480" height="400">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/Images/squatanalysis.png" width="480" height="400">
     </p>
     
 The angle can be computed using the cosine rule:
@@ -145,19 +145,19 @@ The angle can be computed using the cosine rule:
 When A is the length of the line that connects hip and foot, B is the length of the line that connects hip and knee, C is the length of the line that connects knee and foot, the angle Q in the legs is
 
 <p align="center">
-    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/formula.png">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/Images/formula.png">
     </p>
     
 For each A, B, C, we can compute them using Pythagoras theorem. For instance, if we say the x, y coordinate of knee is (x2,y2) and hip (x3,y3), then the distance between them is
 
 <p align="center">
-    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/lengthB.png">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/Images/lengthB.png">
     </p>
     
 When Q has been calculated, we want Angle Q to be displayed as a positive value that is less than 180 (assuming you can't bend your knee the other way). So in case Q is negative or greater than 180 degrees, we need take the absolute value and/or subtract it from 360 degrees.
 
 <p align="center">
-    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/squatacute.png">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/Images/squatacute.png">
     </p>
 
 #### Here is the reference video-
@@ -179,7 +179,7 @@ Steps involved are:<br>
 1.  From ML Kit, we had to remove java files that are Activities. Activity is the component that shows the screen by connecting xml files to the screen. Then, the skeleton that draws lines on the recognized person was removed, as we do not need that. Also, we made the camera to only show the camera input from the front camera, since users would need to see the screen while exercising.
 
 <p align="center">
-    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/PoseEstimateFolderAdded.png">
+    <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/Images/PoseEstimateFolderAdded.png">
     </p>
 
 2. In activity_exercise_detail.xml , we had to include the preview and overlay, which render the camera input to the screen and will replace the image that shows during the exercise.

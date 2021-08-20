@@ -163,8 +163,8 @@ When Q has been calculated, we want Angle Q to be displayed as a positive value 
 #### Here is the reference video-
 
 <p align="center">
-<a href="https://www.youtube.com/watch?v=kD9_2DYQQUk" target="_blank"><img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/youtubetem.png" 
-alt="Reference Video" width="800" height="500" border="10" /></a>
+<a href="https://www.youtube.com/watch?v=kD9_2DYQQUk" target="_blank"><img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/Images/youtubetem.png" 
+alt="Reference Video" width="700" height="400" border="10" /></a>
 </p>
 
 ## Part 4. Integrating ML Kit with template

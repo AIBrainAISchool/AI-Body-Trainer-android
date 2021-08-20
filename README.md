@@ -44,9 +44,8 @@ https://www.youtube.com/watch?v=0zx_eFyHRU0
 ## 1.2 Setup the environment
 Now let us set up the environment for our project. 
 
-Here is the github link to the project
-
-link(www.google.com)
+Here is the github link to the project:<br>
+https://github.com/AIBrainAISchool/AI-Body-Trainer-android
 
 Download and unzip it in a location.
 
@@ -172,9 +171,9 @@ alt="Reference Video" width="700" height="400" border="10" /></a>
 We have to integrate our ML Kit with template to make our App commercially usable.
 
 Steps involved are:<br>
->##### 1. Include ML Kit Pose Detection 
->##### 2. Modify activity_exercise_detail.xml 
->##### 3. Modify ActivityExerciseDetail.java when the user clicks "Skip" or the timer count is over 
+>##### 1. Include ML Kit Pose Detection.
+>##### 2. Add activity_exercise_detail.xml which contains the widgets shown on the screen when you click "Start Exercising".
+>##### 3. Add ActivityExerciseDetail.java when the user clicks "Skip" or the timer count is over.
 
 1.  From ML Kit, we had to remove java files that are Activities. Activity is the component that shows the screen by connecting xml files to the screen. Then, the skeleton that draws lines on the recognized person was removed, as we do not need that. Also, we made the camera to only show the camera input from the front camera, since users would need to see the screen while exercising.
 
@@ -182,13 +181,13 @@ Steps involved are:<br>
     <img src="https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/Images/PoseEstimateFolderAdded.png">
     </p>
 
-2. In activity_exercise_detail.xml , we had to include the preview and overlay, which render the camera input to the screen and will replace the image that shows during the exercise.
+2. In activity_exercise_detail.xml , we had to include the preview and overlay, which render the camera input to the screen and will replace the image that shows during the exercise.<br>
+https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/activity_exercise_detail.xml
 
-(Here is the github link to the file).
+3. ActivityExerciseDetail.java contains setNextData and setExerciseData functions, we have made the following changes:<br>
+https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/ActivityExerciseDetail.java
 
-3. From ActivityExerciseDetail.java , I have made the following changes:
-
-(Here is the github link to the file).
+#### Add Both the files in the project and run it to get the final output.
 
 ## You can download the Final apk and install it in your android phones:(link)
                  

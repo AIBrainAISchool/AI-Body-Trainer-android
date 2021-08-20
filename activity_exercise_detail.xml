@@ -1,0 +1,52 @@
+<!-- Line number, description
+     1. Declaring the id for the overlay
+     2, 3. Set the width and height same as the screen
+     4, 5, 6, 7. Overlap on the preview
+     8. Initialize it as gone, meaning that it does not occupy space on the screen and is not visible-->
+
+<com.templatevilla.fitness.PoseEstimate.GraphicOverlay
+    android:id="@+id/graphic_overlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintLeft_toLeftOf="@id/preview_view"
+    app:layout_constraintRight_toRightOf="@id/preview_view"
+    app:layout_constraintTop_toTopOf="@id/preview_view"
+    app:layout_constraintBottom_toBottomOf="@id/preview_view"
+    android:visibility="gone"/>
+
+<!--1. Declaring te id for the camera preview
+    2, 3. Set the width and height same as the screen
+    4, 5. Fill the screen
+    6. Initialize it as gone. -->
+
+<com.templatevilla.fitness.PoseEstimate.CameraSourcePreview
+    android:id="@+id/preview_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:visibility="gone"
+    />
+...
+...
+
+<!--1. Set font for the counter
+    2. Set text size
+    3. Set text color
+    4. Initialize the text as 0
+    5, 6. Set the size of the counter
+    7. Constrain its position to be left of btn_done widget
+    8. Constrain its position to be vertically centered-->
+
+<TextView
+    android:fontFamily="@font/rubik_regular"
+    android:textSize = "55sp"
+    android:textColor="@color/black"
+    android:id = "@+id/repsCounter"
+    android:text = "0"
+    android:layout_width="80sp"
+    android:layout_height="80sp"
+    android:layout_toLeftOf="@+id/btn_done"
+    android:layout_centerVertical="true"
+     />
+         

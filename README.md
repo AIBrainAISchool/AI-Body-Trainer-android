@@ -188,6 +188,3 @@ https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/activity_ex
 https://github.com/AIBrainAISchool/AI-Body-Trainer-android/blob/main/ActivityExerciseDetail.java
 
 #### Add Both the files in the project and run it to get the final output.
-
-## You can download the Final apk and install it in your android phones:(link)
-                 
